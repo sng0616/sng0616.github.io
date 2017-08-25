@@ -1,12 +1,33 @@
-body {
+body, html {
+/*    margin & padding set to 0 so banners work correctly*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
     background-color: dimgray;
 }
 
 .header {
+    height: 6em;
+    padding-top: 1%;
     background-color: black;
+    text-align: center
+}
+
+@font-face{
+/*    Font courtesy of Youssef Habchi at http://youssef-habchi.com/  */
+    font-family: 'RoadRage';
+    src: url('Road_Rage.otf')
 }
 
 h1, h2, h3 {
-    font-family: sans-serif;
+    padding-left: 1em;
+    font-family: RoadRage;
+    color: floralwhite;
+}
+
+p {
+    font-family: gill sans;
+    font-size: 1.5em;
+    padding-left: 2em;
     color: floralwhite;
 }
