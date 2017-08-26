@@ -19,7 +19,7 @@ h1, h2, h3 {
 }
 
 p {
-    font-family: gill sans;
+    font-family: "Gill Sans", trebuchet, verdana, sans-serif;
     font-size: 1.5em;
     padding-left: 2em;
     color: floralwhite;
