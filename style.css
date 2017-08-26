@@ -6,25 +6,6 @@ body, html {
     background-color: dimgray;
 }
 
-.header {
-    height: 8em;
-    padding-top: 1%;
-    background-color: black;
-    text-align: center
-}
-
-.profile_pic {
-    display: block;
-    margin: auto;
-    position: absolute;
-    top: 5em;
-    right: 43%;
-}
-
-.self-summary {
-    padding-top: 1em;
-}
-
 @font-face{
 /*    Font courtesy of Youssef Habchi at http://youssef-habchi.com/  */
     font-family: 'RoadRage';
@@ -47,4 +28,28 @@ p {
 img {
     border-radius: 50%;
     max-height: 7em;
+}
+
+.header {
+    height: 8em;
+    padding-top: 1%;
+    background-color: black;
+    text-align: center
+}
+
+.profile_pic {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 5em;
+    right: 43.5%;
+}
+
+.self-summary {
+    padding-top: 1em;
+}
+
+.projects li {
+    display: inline;
+    padding: 5%;
 }
