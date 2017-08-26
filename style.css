@@ -7,10 +7,22 @@ body, html {
 }
 
 .header {
-    height: 6em;
+    height: 8em;
     padding-top: 1%;
     background-color: black;
     text-align: center
+}
+
+.profile_pic {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 5em;
+    right: 43%;
+}
+
+.self-summary {
+    padding-top: 1em;
 }
 
 @font-face{
@@ -30,4 +42,9 @@ p {
     font-size: 1.5em;
     padding-left: 2em;
     color: floralwhite;
+}
+
+img {
+    border-radius: 50%;
+    max-height: 7em;
 }
