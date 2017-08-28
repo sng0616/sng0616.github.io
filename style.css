@@ -6,23 +6,28 @@ body, html {
     background-color: dimgray;
 }
 
+/*
 @font-face{
-/*    Font courtesy of Youssef Habchi at http://youssef-habchi.com/  */
+    Font courtesy of Youssef Habchi at http://youssef-habchi.com/  
     font-family: 'RoadRage';
     src: url('Road_Rage.otf')
 }
+*/
 
 h1, h2, h3 {
     padding-left: 1em;
-    font-family: RoadRage;
-    color: floralwhite;
+    font-family: "Lato", sans-serif;
+    color: #0892d0;
+    font-weight: bold;
+/*    font-size: 2em;*/
 }
 
 p {
-    font-family: "Gill Sans", trebuchet, verdana, sans-serif;
+    font-family: "Encode Sans Condensed", sans-serif;
     font-size: 1.5em;
     padding-left: 2em;
-    color: floralwhite;
+    font-weight: lighter;
+    color:floralwhite;
 }
 
 img {
