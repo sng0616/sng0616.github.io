@@ -22,7 +22,7 @@ h1, h2, h3 {
 /*    font-size: 2em;*/
 }
 
-p {
+p, footer {
     font-family: "Encode Sans Condensed", sans-serif;
     font-size: 1.5em;
     padding-left: 2em;
@@ -33,6 +33,16 @@ p {
 img {
     border-radius: 50%;
     max-height: 7em;
+}
+
+footer {
+    width: 80%;
+    position: fixed;
+    bottom: 2%;
+    height: 2%;
+    text-align: center;
+    left: 9%;
+    font-size: 14px;
 }
 
 .header {
